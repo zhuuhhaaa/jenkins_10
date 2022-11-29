@@ -16,6 +16,8 @@
       </plugin>
     </plugins>
   </build>
+  <name>Archetype - hello-webdriver</name>
+  <url>http://maven.apache.org</url>
 
   <dependencies>
     <dependency>
@@ -35,9 +37,8 @@
 
 
   <properties>
-    <maven.compiler.source>19</maven.compiler.source>
-    <maven.compiler.target>19</maven.compiler.target>
+    <maven.compiler.source>18</maven.compiler.source>
+    <maven.compiler.target>18</maven.compiler.target>
   </properties>
-  <name>Archetype - hello-webdriver</name>
-  <url>http://maven.apache.org</url>
+
 </project>
