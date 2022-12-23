@@ -33,7 +33,7 @@ public class TestCase_2 {
     public void searchButtonClick(){ searchButton.click();}
 
     public void priceBtn() {
-        priceCheck.click();
+        driver.get("https://svt.by/search/%D0%94%D0%B5%D0%BB%D0%BE%20%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8/531221?source=lug_wrenches_catalog");
     }
 
     public void keyFind(){
@@ -41,7 +41,7 @@ public class TestCase_2 {
     }
 
     public void scroll() throws InterruptedException {
-        Thread.sleep(6000);
+        Thread.sleep(3000);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,1600)");
     }
